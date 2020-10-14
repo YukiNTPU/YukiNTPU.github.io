@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <style>
+	     body {background-color: black;}
+     </style>
+</head>
+	<body text="white">
+	  <div id="header">
+		
+	    <a href="https://YukiNTPU.github.io/">Home</a>  <!--Click here back to main page-->
+		<h1>Practice 5</h1>
+		<p><span id="combination of bold and italic"><b><i> Here is the practice of the 5 week </b></i></span></p>
+		
+	  </div>
+	  
+	  <hr>
+	  
+	  <div id="video part">   <!--practice upload uncle roger's video-->
+		  
+	    <video src="video/uncle roger Haiya.mp4 " width="400" preload controls loop>
+	    </video>
+            <p><span id="combination of bold and italic"">  Haiyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!! </span></p>
+	   
+	  </div>
+	  
+	  <hr>
+	  
+          <div id="audio part">   <!--upload Alan walker's faded as audio practice for week 5-->
+		    
+	      <audio src="audio/Fade.mp3" controls autoplay>
+		    <p><span id="combination of bold and italic">Alan Walker - Faded</span></p>
+              </audio>
+
+          </div>
+    </body>
+</html>
