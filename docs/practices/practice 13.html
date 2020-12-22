@@ -1,0 +1,307 @@
+
+<html>
+<head>
+  <title>Week 13 assignment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body {background-color: black;}
+*{color:white;}
+ol.first {list-style-type: katakana;
+}
+
+ul.second {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li.second { 
+  padding-left: 16px; 
+}
+
+li.second::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue; /* Or a color you prefer */
+}
+
+ul.third {
+  list-style-image: url('https://s3.amazonaws.com/libapps/accounts/55000/images/Note-Memo-01-256.png');
+}
+
+table.forth {
+  border: 1px solid black;
+}
+table.fifth { border-collapse: collapse; }
+.fifth tr { border: none; }
+.fifth td {
+  border-right: solid 1px #f00; 
+  border-left: solid 1px #f00;
+}
+
+table.sixth {
+  border-collapse: collapse;
+  width: 60%;
+  margin:auto;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.sixth th,.sixth td {
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+  
+table.seventh {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.seventh th,.seventh td {
+  text-align: center;
+  padding: 8px;
+}
+
+.seventh tr:nth-child(even){background-color: #1E90FF}
+
+.seventh th {
+  background-color: #228B22;
+  color: #FF8C00;
+}
+
+table.eighth {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+.eighth th, .eighth td {
+  text-align: center;
+  padding: 8px;
+}
+.eighth tr:nth-child(odd) {background-color: #AFEEEE;}
+.eighth tr:nth-child(even) {background-color: #FFD700;}
+  
+  
+  
+table.nineth {
+  border-collapse: collapse;
+  width: 70%;
+  margin:auto;
+}
+
+.nineth th, .nineth td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.nineth tr:hover {background-color:#DC143C;}
+
+table.tenth, .tenth td, .tenth th {
+  border: 1px solid white;
+}
+
+table.tenth {
+  border-collapse: separate;
+  border-spacing: 5px;
+} 
+
+
+</style>
+</head>
+  
+<body>
+<a href="https://YukiNTPU.github.io/practice_main.html">Home</a>
+<ol class="first">
+  <li>You can change your list type with the parameter:list-style-type</li>
+  <li>There are severial kind of list type in both list & order list:</li>
+  <li>My favorite list type is the katakana list type</li>
+</ol>
+
+<hr/>
+
+<ul class="second">
+  <li class="second">use custom bullet for list items</li>
+  <li class="second">use custom bullet for list items</li>
+  <li class="second">use custom bullet for list items</li>
+</ul>
+
+<hr/>
+
+<ul class="third">
+  <li>You can also change your list-type to a image you prefer</li>
+  <li>with parameter"list_style_image" </li>
+  <li>but it seems that my image can't shown properly</li>
+</ul>
+
+<hr/>
+  <div class="w3-container">
+  <ul class="w3-ul w3-hoverable">
+    <li>I can't get what this funtion is doing</li>
+    <li>So i just paste from others</li>
+  </ul>
+</div>
+
+<hr/>
+  
+<table class="forth">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+	<td>Salary</td>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+	<td>$54K</td>
+  </tr>
+  <tr>
+    <td>Tommy</td>
+    <td>Boy</td>
+	<td>$100K</td>
+  </tr>
+</table>
+
+<hr/>
+
+<table class="fifth">
+<tr>
+<td>Table don't</td>
+<td>always need</td>
+</tr>
+<tr>
+<td>to be </td>
+<td>complete.</td>
+</tr>
+</table>
+
+<hr/>
+
+<table class="sixth">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Salary</th>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+    <td>20</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+    <td>45</td>
+	<td>$54K</td>
+  </tr>
+</table>
+
+<hr/>
+
+<table class="seventh">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Salary</th>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+    <td>20</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+    <td>45</td>
+	<td>$54K</td>
+  </tr>
+ </table>
+ 
+<hr/>
+
+<table class="eighth">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Salary</th>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+    <td>20</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+    <td>45</td>
+	<td>$54K</td>
+  </tr>
+</table>
+
+<hr/>
+
+<table class="nineth">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Salary</th>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+    <td>20</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+    <td>45</td>
+	<td>$54K</td>
+  </tr>
+ </table>
+
+<hr/>
+
+<table class="tenth">
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+	<th>Salary</th>
+  </tr>
+  <tr>
+    <td>Peggy</td>
+    <td>Girl</td>
+    <td>20</td>
+	<td>$22K</td>
+  </tr>
+  <tr>
+    <td>Johnny</td>
+    <td>Boy</td>
+    <td>45</td>
+	<td>$54K</td>
+  </tr>
+
+</table>
+<hr/>
+
+
+  
+
+</body>
+</html>
