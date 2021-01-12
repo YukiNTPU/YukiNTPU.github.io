@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mainpage Modified</title>
+
+
+<style>
+body {background-color: black;}
+*{color:white;box-sizing: border-box;}
+
+
+body {
+  margin: 0;
+}
+
+
+.header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  font-size:130%;
+  height: 500px; 
+  background-image: url('https://aestw.files.wordpress.com/2019/10/rave-music-festival-1.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.AlanWalker1 {
+	float: left;
+	width: 20%;
+	margin: 10px;
+	font-size: 50%;
+}
+.AlanWalker2 {
+	float: left;
+	width: 60%;
+	margin: 10px;
+	font-size: 80%;
+	
+}
+table.Alanintro {
+  border-collapse: collapse;
+  width: 50%;
+  margin:auto;
+}
+
+.Alanintro th, .Alanintro td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.Alanintro tr:hover {background-color:#DC143C;}
+<!--  -->
+.MartinGarrix1 {
+	float: left;
+	width: 20%;
+	margin: 10px;
+	font-size: 30%;
+}
+.MartinGarrix2 {
+	float: left;
+	width: 60%;
+	margin: 10px;
+	font-size: 80%;
+	
+}
+table.Martinintro{
+  border-collapse: collapse;
+  width: 60%;
+  margin:auto;
+}
+
+.Martinintro th, .Martinintro td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.Martinintro tr:hover {background-color:#DC143C;}
+
+</style>
+</head>
+<body>
+  <a href="https://YukiNTPU.github.io/Introduction.html">Introduction</a>
+		
+    &middot;
+		
+    <a href="https://YukiNTPU.github.io/Catalog_of_Diary.html">Diary </a>
+				
+    &middot;
+		
+    <a href="https://YukiNTPU.github.io/practice_main.html">Assignments</a>
+<div class="header">
+  <h1>Edm & NCS producer</h1>
+ 
+</div>
+
+<div class="topnav">
+
+  <a href="#Alan walker">Alan Walker</a>
+  <a href="#Martin Garrix">Martin Garrix</a>
+ 
+  <a href="http://YukiNTPU.github.io/NCS.html">NCS</a>
+  <a href="https://en.wikipedia.org/wiki/Electronic_dance_music">Edm intro</a>
+  <a href="https://yukintpu.github.io/Mainpage.html">Home</a>
+  
+</div>
+
+<div>
+ <div class="AlanWalker1">
+  <h1>Intro</h1>
+  <img src="https://image.midifan.com/data/attach/album/2018/0723/3773_1532337677.jpg" alt="Alan Walker"width="250" align="left"/>
+  <p>
+	<table class="Alanintro">
+   <tr>
+     <th>Birth name</th>
+     <th>Alan Olav Walker</th>
+   </tr>
+  
+   <tr>
+     <td>Origin</td>
+     <td>Bergen,Norway</td>
+   </tr>
+  
+   <tr>
+     <td>Genres</td>
+     <td>EDM,Electro,Houseprogressive,Housebig room house,Deep house</td>
+   </tr>
+  <tr>
+    <td>Years active</td>
+    <td>2015-Present</td>
+   </tr>
+  
+  </table>
+
+ </p>
+
+</div>
+ <div class="AlanWalker2">
+ <h1 id="Alan walker">Carrer</h1>
+ <p>
+  <ul>
+   <li>In 2012, Alan Walker started pursuing music as a career. He started producing music on his laptop, with the help of the digital audio workstation, ‘FL Studio.’ He posted his music on ‘YouTube,’ and ‘SoundCloud,’ and took feedback from listeners.</li>
+   <li>In August 2014, Walker released his track, ‘Fade.’ In November 2014, it was re-released with the record label, ‘NoCopyrightSounds.’ The track became immensely popular. It has over 300 million views on ‘YouTube,’ 70 million plays on ‘Spotify,’ and 20 million streams on ‘SoundCloud.</li>
+   <li>In December 2015, Walker released the single track, ‘Faded,’ with the music production company, ‘MER Musikk.’ It was a remastered version of his earlier track, ‘Fade.’ It featured the Norwegian pop singer Iselin Solheim. This track was more popular than its original version. Music lovers around the world embraced the song, and it topped the year-end charts in Austria, Germany, Switzerland, and Sweden. It has over 1.9 billion views on ‘YouTube.’ The song found place in the list of top 10 most-liked ‘YouTube’ videos.</li>
+   <li>In 2015, Alan Walker released the tracks, ‘Spectre,’ and ‘Force.’ In February 2016, Walker gave his debut live performance, at the ‘Winter X games,’ held in Oslo. He performed 15 tracks, including ‘Faded.’ In April 2016, Walker performed at the ‘Echo Awards,’ in Germany. Swedish singer Zara Larsson accompanied him on stage.</li>
+   <li>In June 2016, Walker released the song, ‘Sing Me to Sleep,’ which featured singer Iselin Solheim. This was also a big success, and has over 400 million views on ‘YouTube.’ In December 2016, he released the song ‘Alone,’ featuring the Swedish singer Noonie Bao. This song was described as the final piece of Walker’s trilogy - the other two being ‘Faded,’ and Sing Me to Sleep.’</li>
+   <li>In December 2016, Walker held the first concert in his hometown, Bergen. It was titled ‘Alan Walker is Heading Home.’ In the concert, he performed with singers, such as Angelina Jordan, Alexandra Rotan, and Tove Styrke. It was live-streamed on ‘YouTube.’ Walker premiered several unreleased tracks in this concert. He performed the song, ‘The Spectre,’ which was the remastered version of his earlier track, ‘Spectre.’</li>
+   <li>In 2017, Alan Walker released the instrumental version of the song, ‘Ignite.’ It featured Norwegian music producer K-391. In May 2017, he recorded his first song with Irish singer Gavin James. The song was titled ‘Tired.’ Walker described it as a song that “adds another dimension to his productions.” In October 2017, Walker released the song, ‘All Falls Down,’ featuring American singer, Noah Cyrus, and British record producer ‘Digital Farm Animals.’</li>
+   <li>In 2018, Walker became the top ‘YouTuber’ in Norway, with more than 15 million subscribers. In May 2018, Walker, together with K-391, released the vocal version of the song, ‘Ignite,’ which featured Norwegian singer Julie Bergan, and South Korean singer Seungri. In July 2018, he released the song, ‘Darkside,’ featuring Au/Ra, and Tomine Harket.</li>
+  </ul>
+ </p>
+ <h1>Hit songs</h1>
+   <iframe width="20%" src="https://www.youtube.com/embed/60ItHLz5WEA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="20%" src="https://www.youtube.com/embed/M-P4QBt-FWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="20%" src="https://www.youtube.com/embed/wJnBTPUQS5A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <iframe width="20%" src="https://www.youtube.com/embed/Az-mGR-CehY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+</div>
+
+<div>
+ <div class="MartinGarrix1">
+   <h1>Intro</h1>
+    <img src="https://omusic.friday.tw/img/artist/59762.jpg" alt="Martin Garrix"width="250"align="left"/></p>
+     <p>
+ 
+     <table class="Martinintro">
+      <tr>
+      <th>Birth name</th>
+      <th>Martijn Gerard Garritsen</th>
+     </tr>
+  
+     <tr>
+      <td>Origin</td>
+      <td>Amstelveen, Netherlands</td>
+     </tr>
+  
+     <tr>
+      <td>Genres</td>
+      <td>Progressive house,Big room house,Dutch houseelectro house,</td>
+     </tr>
+     <tr>
+      <td>Years active</td>
+      <td>2012-Present</td>
+     </tr>
+  
+      </table>
+
+
+  </p>
+
+ </div>
+ <div class="MartinGarrix2">
+   <h1 id="Martin Garrix">Carrer</h1>
+    <p>
+     <ul>
+      <li>Martin Garrix’s career as an Electronic Dance Music (EDM) star began at 14, when he served as a disc jockey at his high school dance. After meeting Tiësto and having him as a mentor, he released his first tracks, ‘BFAM’ (with Julian Jordan) and ‘Just Some Loops’ (with TV Noise). In 2012, he released ‘Error 404’ (with Jay Hardway), his first track through ‘Spinnin' Records’. The following year he released ‘Torrent’ (with Sidney Samson) on Tiësto’s own label, Musical Freedom. Released as a digital download on June 16, 2013, his first mega hit, ‘Animals’, was also his first solo work. The track topped multiple listings in Europe. It also helped Garrix become the youngest person with a song that climbed to the No.1 spot on the electronic music store ‘Beatport’.</li>
+      <li>His second collaboration with Hardway, ‘Wizard’ was released on 2 December 2013. The song was later used in the film ‘Night at the Museum: Secret of the Tomb (2014)’. ‘Helicopter’ (a collaborative effort between Garrix and Firebeatz) was ranked No.1 on the Beatport chart for two consecutive weeks. In early 2014, he headlined the‘Ultra Music Festival’ for the first time. On February 6, 2015, he released his first progressive house track ‘Forbidden Voices’, a distinct departure from his usual big room sound. In the same month he worked with Usher on the single ‘Don’t Look Down’. He played the song ‘Rewind Repeat It’ featuring Ed Sheeran at the Ultra Music Festival in 2015 in Miami.</li>
+      <li>The mid-2015 saw his exit from ‘Spinnin' Records’ over a contention about the ownership of his music. In early 2016 he launched ‘STMPD RCRDS’, and through the label he released his new track ‘Now That I’ve Found You’. His promotional single ‘Opps’, released on June 13, 2016, was picked as the ‘Electronic Entertainment Expo 2016’ anthem. His contract signing with ‘Sony Music’ came about on July 26, 2016. Garrix and singer Troye Sivan performed their collaborative song ‘There For you’ at the ‘2017 Coachella Valley Music And Arts Festival in California. He is now all set to support Justin Bieber at the 'Barclaycard presents British Summer Time Hyde Park' show in July 2017. He has also made two appearances on ‘The Tonight Show Starring Jimmy Fallon’ as a music guest, first in 2016, and then again in 2017.</li>
+     </ul>
+    </p>
+   <h1>Hit songs</h1>
+     <iframe width="20%" src="https://www.youtube.com/embed/pNNMr5glICM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="20%" src="https://www.youtube.com/embed/gCYcHz2k5x0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="20%" src="https://www.youtube.com/embed/Lpjcm1F8tY8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="20%"  src="https://www.youtube.com/embed/DylzGXE_ibU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ </div>
+
+
+</body>
+</html>
